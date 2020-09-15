@@ -216,7 +216,7 @@ def point_annotator(
             edge_width=8,
             size=12,
             n_dimensional=True,
-            scale=[z_scale, 1, 1]
+            # scale=[z_scale, 1, 1]
         )
         points_layer.edge_color_mode = 'cycle'
 
